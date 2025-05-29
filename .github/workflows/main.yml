@@ -33,4 +33,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: lai_test.iso
-        path: lai_test.iso
+        path: $LAIDIR/lai_test.iso
